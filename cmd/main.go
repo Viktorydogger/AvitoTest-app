@@ -1,7 +1,6 @@
 package main
 
 import (
-	avitotestapp "forgo/AvitoTest-app"
 	"log"
 )
 
