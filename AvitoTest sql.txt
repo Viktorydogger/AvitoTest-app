@@ -1,0 +1,24 @@
+DROP DATABASE IF EXISTS "AvitoTest";
+CREATE DATABASE "AvitoTest" WITH ENCODING = 'UTF8';
+
+\c "AvitoTest";
+
+CREATE TABLE customers
+(
+  id serial, 
+  annotation money NOT NULL
+);
+
+CREATE TABLE services
+(
+  id serial, 
+  cost money NOT NULL
+);
+
+
+CREATE TABLE orders
+(
+  id serial,
+  services_id smallint NOT NULL, 
+  price money NOT NULL
+);
