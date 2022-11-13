@@ -1,4 +1,5 @@
 module github.com/Viktorydogger/AvitoTest-app
+
 go 1.14
 
 require (
@@ -36,4 +37,3 @@ require (
 	google.golang.org/protobuf v1.25.0 // indirect
 	gopkg.in/ini.v1 v1.61.0 // indirect
 )
-
